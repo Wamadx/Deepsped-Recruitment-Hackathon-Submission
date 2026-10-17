@@ -3,10 +3,10 @@
 ## Members
 | Name | Matric number | Email |
 | --- | --- | --- |
-| Dzul | <MATRIC> | <EMAIL> |
-| Harikaran | <MATRIC> | <EMAIL> |
-| Zhi Ning | <MATRIC> | <EMAIL> |
-| Muhammad | <MATRIC> | <EMAIL> |
+| Dzul | — | — |
+| Harikaran | — | — |
+| Zhi Ning | — | — |
+| Muhammad | — | — |
 
 ## Approach
 Pure-pursuit path following against the circuit centreline, with a live
@@ -67,9 +67,8 @@ None. The driver uses only `numpy`, which is preinstalled in the judging image.
 - F1TENTH / RoboRacer course materials (vehicle dynamics, reactive baselines).
 
 ## AI assistance
-OpenCode (DeepSeek V4 Pro) was used to scaffold the driver, diagnose simulator and
-environment issues, and evaluate tuning. All code was reviewed and understood by
-the team before submission.
+OpenCode (DeepSeek V4 Pro) and Gemini were used to write the driver, tune
+parameters, and debug simulator and environment issues.
 
 ## Known issues
 - Pure pursuit still cuts the inside of corners at high speed; a minimum-curvature
